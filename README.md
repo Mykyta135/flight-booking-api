@@ -1,3 +1,5 @@
+<img src=".github/cover.png" alt="flight-booking-api" width="100%">
+
 # flight-booking-api
 
 University coursework: a flight booking platform with a NestJS + Prisma backend and a Next.js frontend. You search flights, hold seats, pay, get tickets, and can request a refund.
