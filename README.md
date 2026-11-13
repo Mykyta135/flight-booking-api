@@ -4,6 +4,8 @@
 
 University coursework: a flight booking platform with a NestJS + Prisma backend and a Next.js frontend. You search flights, hold seats, pay, get tickets, and can request a refund.
 
+> **Archived (November 2026).** Kept for reference only; not maintained and not meant to be deployed. A security review of my public repos found gaps I did not fix in this coursework: refund processing has no role check and takes the amount from the client, refunds can be read by any logged-in user, and ticket/PDF routes have no auth guard. My maintained projects are listed on my GitHub profile.
+
 ## The interesting part: seat holds
 
 Two people must not be able to buy the same seat, and a seat someone abandoned at checkout must not stay locked forever.
